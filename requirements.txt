@@ -1,0 +1,10 @@
+# Base requirements for TinyLlama + PEFT
+torch>=2.0.0
+transformers>=4.36.0
+peft>=0.7.0
+accelerate>=0.24.0
+
+# Tokenizer and utilities
+sentencepiece>=0.1.99  # Required for TinyLlama tokenizer
+bitsandbytes>=0.41.0  # Optional for 4-bit quantization
+einops>=0.7.0  # Used by some transformer architectures
